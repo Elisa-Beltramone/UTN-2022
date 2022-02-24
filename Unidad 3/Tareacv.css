@@ -1,0 +1,32 @@
+h1{
+    text-transform: uppercase; /*Mayuscula*/
+    text-align: center;
+    color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: -2px 4px 31px rgba(0,0,0,0.6);
+}
+h2{
+    color: rgb(127, 255, 191);
+}
+p{
+    color:darkmagenta;
+}
+.destacado{
+    color: mediumorchid;
+    font-weight: bolder;
+}
+#cuadro{
+    background-color: rgb(236, 99, 99);
+    width: 400px;
+    height: auto;
+    border-radius: 0px 200px 200px 0px;
+}
+img{
+    width: 700px;
+}
+img:hover{
+    filter: sepia(100%) saturate(143%) invert(100%);
+}
+a:hover{
+    color: red;
+}
