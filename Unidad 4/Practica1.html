@@ -17,7 +17,9 @@
 
     // var transporte = ["pie", "bicicleta", "colectivo", "auto", "avión"]
 
-    // document.write('El medio de trasporte recomenddado es: ');
+    document.write('<br>');
+
+    document.write('El medio de trasporte recomenddado es: ');
 
 // 0 a 1000 metros = pie
 // 1000 a 10000 metros = bicicleta
@@ -28,24 +30,29 @@
     
     if (km <= 1000) {
         alert("pie");
+        document.write('pie. ');
     }
     else if (km <= 10000  &&  km >1000) {
         alert("bicicleta");
+        document.write(' bicicleta. ');
     }
     else if (km <= 30000  &&  km >10000) {
         alert("colectivo");
+        document.write(' colectivo. ');
     }
     else if (km <= 100000  &&  km >30000) {
         alert("auto");
+        document.write(' auto. ');
     }
     else if (km >100000) {
         alert("avion");
+        document.write(' avión. ');
     }
 
-   
 
-    document.write('¡Buen viaje!');
     </script>
-     
+
+     <h3>¡Buen viaje!</h3>
+
 </body>
 </html>

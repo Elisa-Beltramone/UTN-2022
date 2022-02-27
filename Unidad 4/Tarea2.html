@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Ejercicio 2 Haciendo uso de los bucles, recorrer un array de números y determinar cual es el mayor-->
+    <script>
+        numero1=prompt('Ingrese un número:',''); 
+        numero2=prompt('Ingrese un número:','');
+        numero3=prompt('Ingrese un número:',''); 
+
+        var numeros = [parseInt(numero1), parseInt(numero2), parseInt(numero3)];
+
+        document.write("Los datos ingresados son: ")
+        document.write(numeros)
+
+        // var mayor=numeros[0];
+        // document.write(mayor);
+        var mayor=0;
+        
+
+        for(var i=0; i<numeros.length; i++){
+            if(numeros[i]>mayor){
+                mayor=numeros[i]
+            }
+            
+        }
+
+
+        document.write("<br>")
+        document.write("El mayor es el: ")
+        document.write(mayor);
+		
+
+
+	</script>
+
+
+</body>
+</html>
