@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transporte</title>
+</head>
+<body>
+    <script>
+    var distancia;
+
+    distancia=prompt('Ingrese la distancia a recorrer:',''); 
+    document.write('La distancia a reccore es de ');
+    document.write(distancia);
+    document.write(' metros. ');
+
+    // var transporte = ["pie", "bicicleta", "colectivo", "auto", "avión"]
+
+    // document.write('El medio de trasporte recomenddado es: ');
+
+// 0 a 1000 metros = pie
+// 1000 a 10000 metros = bicicleta
+// 10000 a 30000 metros = colectivo
+// 30000 a 100000 metros = auto
+// +100000 = avión
+    var km = distancia;
+    
+    if (km <= 1000) {
+        alert("pie");
+    }
+    else if (km <= 10000  &&  km >1000) {
+        alert("bicicleta");
+    }
+    else if (km <= 30000  &&  km >10000) {
+        alert("colectivo");
+    }
+    else if (km <= 100000  &&  km >30000) {
+        alert("auto");
+    }
+    else if (km >100000) {
+        alert("avion");
+    }
+
+   
+
+    document.write('¡Buen viaje!');
+    </script>
+     
+</body>
+</html>
